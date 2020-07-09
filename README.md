@@ -1,4 +1,14 @@
-### Hi there 👋
+# Usage
+
+`/usr/bin/vpmv start|stop|mount|sleep [operand]`
+
+## RTFM
+
+`man vpmv`
+
+# TL;DR
+
+GitHub is in no way a representation of the entity VPMV, neither living nor dead.
 
 <!--
 **vpmv/vpmv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
