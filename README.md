@@ -6,9 +6,16 @@
 
 `man vpmv`
 
-# TL;DR
+# But seriously
 
-GitHub is in no way a representation of the entity VPMV, neither living nor dead.
+I spend most of the time here browsing sources for my full-time job. 
+
+It seems that the time I spend productively, is on code I don't even support anymore. My Unchained CMS for example; I'd much rather have dedicated apps for easily managing my activities, but Unchained is just good enough for now. A few simple tweaks and we're good to go. 
+You should give it a try, but I don't recommend it for production environments anymore.
+
+## Head hunters
+
+I have a JSON resume
 
 <!--
 **vpmv/vpmv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
