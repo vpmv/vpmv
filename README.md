@@ -15,7 +15,7 @@ You should give it a try, but I don't recommend it for production environments a
 
 ## Head hunters
 
-I have a JSON resume
+I have a [JSON resume](https://registry.jsonresume.org/vpmv)
 
 <!--
 **vpmv/vpmv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
