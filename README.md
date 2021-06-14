@@ -1,17 +1,40 @@
-# Usage
+# Code, rinse, repeat
 
-`/usr/bin/vpmv start|stop|mount|sleep [operand]`
+```go
+import (
+  "time"
+  "math/rand"
+)
 
-## RTFM
+func main() {
+  for {
+    t := time.Now().Hour()
+    switch {
+    case t > 8 && t < 18:
+      work()
+    case t >= 18 && t <= 23:
+      freetime()
+    }
+    time.Sleep(3600 * time.Second)
+  }
+}
 
-`man vpmv`
+func work() {
+  tasks := []string{"code", "read", "discuss"}
+  log.Println(tasks[rand.Intn(len(tasks))])
+}
 
+func freetime() {
+  tasks := []string{"sit in garden", "listen to music", "horse around"} # i don't eat
+  log.Println(tasks[rand.Intn(len(tasks))])
+}
+```
 # But seriously
 
-I spend most of the time here browsing sources for my full-time job. 
+I spend most of the time here browsing sources for my full-time job.<br>
+I'm mostly proficient in GoLang & PHP. Front-end isn't my strong suit, but I manage.
 
-It seems that the time I spend productively, is on code I don't even support anymore. My Unchained CMS for example; I'd much rather have dedicated apps for easily managing my activities, but Unchained is just good enough for now. A few simple tweaks and we're good to go. 
-You should give it a try, but I don't recommend it for production environments anymore.
+My online actions are not a representation of my being, skills or capabilities. I know the code above may well just be a cronjob, don't worry &#128521;.
 
 ## Head hunters
 
